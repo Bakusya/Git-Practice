@@ -1,0 +1,330 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Проверка логин функции",
+        "description": "",
+        "id": "scenario-outline-feature;проверка-логин-функции;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 373691200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Я как пользователь должен зайти на \"fb.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fb.com",
+                  "offset": 36
+                }
+              ],
+              "location": "ScenarioOutlineSteps.я_как_пользователь_должен_зайти_на(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 158900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "В поле email вводим \"test@test.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@test.com",
+                  "offset": 21
+                }
+              ],
+              "location": "ScenarioOutlineSteps.в_поле_email_вводим(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 215600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "В поле пароль вводим \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 22
+                }
+              ],
+              "location": "ScenarioOutlineSteps.в_поле_пароль_вводим(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 944800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Я должен нажать на кнопку войти в систему",
+            "match": {
+              "location": "ScenarioOutlineSteps.я_должен_нажать_на_кнопку_войти_в_систему()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 951000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Система должен вывести ошибку \"Вы ввели не правильные данные\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Вы ввели не правильные данные",
+                  "offset": 31
+                }
+              ],
+              "location": "ScenarioOutlineSteps.система_должен_вывести_ошибку(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Проверка логин функции",
+        "description": "",
+        "id": "scenario-outline-feature;проверка-логин-функции;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3556400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Я как пользователь должен зайти на \"fb.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fb.com",
+                  "offset": 36
+                }
+              ],
+              "location": "ScenarioOutlineSteps.я_как_пользователь_должен_зайти_на(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 270100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "В поле email вводим \"test123@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test123@gmail.com",
+                  "offset": 21
+                }
+              ],
+              "location": "ScenarioOutlineSteps.в_поле_email_вводим(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 186700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "В поле пароль вводим \"Hello123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hello123",
+                  "offset": 22
+                }
+              ],
+              "location": "ScenarioOutlineSteps.в_поле_пароль_вводим(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 639300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Я должен нажать на кнопку войти в систему",
+            "match": {
+              "location": "ScenarioOutlineSteps.я_должен_нажать_на_кнопку_войти_в_систему()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4001000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Система должен вывести ошибку \"Вы ввели не правильные данные\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Вы ввели не правильные данные",
+                  "offset": 31
+                }
+              ],
+              "location": "ScenarioOutlineSteps.система_должен_вывести_ошибку(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Проверка логин функции",
+        "description": "",
+        "id": "scenario-outline-feature;проверка-логин-функции;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 37297700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Я как пользователь должен зайти на \"fb.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fb.com",
+                  "offset": 36
+                }
+              ],
+              "location": "ScenarioOutlineSteps.я_как_пользователь_должен_зайти_на(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 164400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "В поле email вводим \"john@yahoo.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "john@yahoo.com",
+                  "offset": 21
+                }
+              ],
+              "location": "ScenarioOutlineSteps.в_поле_email_вводим(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 384500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "В поле пароль вводим \"Password123@#\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password123@#",
+                  "offset": 22
+                }
+              ],
+              "location": "ScenarioOutlineSteps.в_поле_пароль_вводим(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 685900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Я должен нажать на кнопку войти в систему",
+            "match": {
+              "location": "ScenarioOutlineSteps.я_должен_нажать_на_кнопку_войти_в_систему()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 718600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Система должен вывести ошибку \"Вы ввели не правильные данные\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Вы ввели не правильные данные",
+                  "offset": 31
+                }
+              ],
+              "location": "ScenarioOutlineSteps.система_должен_вывести_ошибку(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Scenario Outline feature",
+    "description": "",
+    "id": "scenario-outline-feature",
+    "keyword": "Feature",
+    "uri": "features/ScenarioOutline.feature"
+  }
+]
